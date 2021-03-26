@@ -1,0 +1,219 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: url(jp3.png) no-repeat;
+  background-size: cover;
+  font-family: 'Lucida Console', monospace;
+}
+
+.logo {
+  width: 100%;
+  background: #ffb700;
+  font-family: 'Ubuntu', sans-serif;
+}
+
+.logo #logo h3 {
+  color: black;
+  font-size: 35px;
+  font-weight: 600;
+  font-family: 'Lucida Console', monospace;
+  position: static;
+}
+
+.container {
+  width: 60%;
+  margin: auto;
+  margin-top: 72px;
+  height: 80%;
+  border-radius: 5px;
+  background-color: black;
+  opacity: 0.6;
+  text-align: center;
+  clear: both;
+  position: static;
+}
+
+.lists {
+  color: white;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.header1, .header2, .header3 {
+  background-color: grey;
+  height: 40px;
+  padding-top: 15px;
+  border-radius: 5px 5px 0 0;
+}
+
+h1 {
+  color: white;
+}
+
+.main1, .main2, .main3 {
+  background-color: lightgrey;
+  height: 180px;
+  margin-bottom: 30px;
+  border-radius: 0 0 5px 5px;
+  color: black;
+}
+
+.header1 h3, .header2 h3, .header3 h3 {
+  margin: 0;
+}
+
+.main1 ul, .main2 ul, .main3 ul {
+  margin: 0;
+}
+
+.card1, .card2, .card3 {
+  border-radius: 5px;
+}
+
+.head_box {
+  border-radius: 50%;
+  width: 245px;
+  height: 244px;
+  margin-top: 60px;
+}
+
+.p1 {
+  transition: all ease-in-out 500ms;
+}
+
+#w1 {
+  color: #ffb700;
+  font-size: 72px;
+  display: inline;
+}
+
+.w2 {
+  color: #ffb700;
+}
+
+head h1 {
+  font-size: 40px;
+  letter-spacing: 4px;
+  font-weight: 100;
+}
+
+h2 {
+  color: white;
+  font-family: 'Lucida Console', monospace;
+}
+
+img {
+  float: none;
+}
+
+#th1 {
+  color: #ffb700;
+}
+
+#th2 {
+  color: #ffb700;
+}
+
+table {
+  color: white;
+}
+
+.t {
+  border-collapse: collapse;
+  margin: 25px 0;
+  font-family: sans-serif;
+  font-size: 0.9rem;
+  min-width: 400px;
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+}
+
+.t thead tr {
+  background-color: #009879;
+  color: #ffffff;
+  text-align: left;
+}
+
+.t th,
+.t td {
+  padding: 12px 15px;
+}
+
+.t tbody tr {
+  border-bottom: 1px solid #dddddd;
+}
+
+.t tbody tr:nth-of-type(even) {
+  background-color: #f3f3f3;
+}
+
+.t tbody tr:last-of-type {
+  border-bottom: 2px solid #009879;
+}
+
+.styled-table tbody tr.active-row {
+  font-weight: bold;
+  color: #009879;
+}
+
+.t tbody tr.tr {
+  font-weight: bold;
+  color: #009879;
+}
+
+.t {
+  background-color: lightgrey;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 100px;
+  height: 15px;
+}
+
+li {
+  list-style: none;
+}
+
+#s1 {
+  color: #009879;
+}
+
+#s2 {
+  color: #ffb700;
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 30px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  border-radius: 50%;
+}
+
+.fa:hover {
+  opacity: 0.7;
+}
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+  transition: all ease-in-out 250ms;
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+
+#l1 {
+  display: inline-block;
+}

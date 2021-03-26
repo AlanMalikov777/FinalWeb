@@ -1,0 +1,53 @@
+body {
+  background: url(Main_Background.jpg) no-repeat;
+  background-attachment: fixed;
+}
+
+.navbar {
+  position: static;
+}
+
+.container {
+  background-color: black;
+  border-color: green;
+  border-radius: 15PX;
+  padding: 20px;
+}
+
+.container {
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+img {
+  margin: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr)
+}
+
+.grid-title {
+  margin-bottom: 8px;
+  text-align: left;
+  line-height: 1;
+  color: #fff;
+}
+
+.grid-info {
+  margin-bottom: 8px;
+  font-size: 14px;
+  margin-top: 8px;
+  text-align: left;
+  line-height: 1;
+  color: #fff;
+}
+
+#p1 {
+  color: #fff;
+}
+
+div {
+  color: #fff;
+}

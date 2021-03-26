@@ -1,0 +1,228 @@
+ @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap');
+
+ {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Ubuntu", sans-serif;
+}
+
+body {
+  background: #FFE4C4;
+  color: #000;
+}
+
+
+/*
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: 0.6s;
+  padding: 40px 100px;
+  z-index: 100000;
+}
+
+header.stecky {
+  padding: 5px 100px;
+  background: #fff;
+}
+
+header .logo {
+  position: relative;
+  font-weight: 700;
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  letter-spacing: 0.2px;
+  transition: 0.6s;
+}
+
+header ul {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul li {
+  position: relative;
+  list-style: none;
+}
+
+header ul li a {
+  position: relative;
+  margin: 0 15px;
+  text-decoration: none;
+  color: #fff;
+  letter-spacing: 0.2px;
+  font-weight: 500;
+  transition: 0.6s;
+  opacity: 0.7;
+}
+
+a:hover {
+  color: grey;
+}
+
+header.sticky .logo,
+header.sticky ul li a {
+  color: #000;
+}
+
+.social-media ul li i {
+  width: 45px;
+  height: 45px;
+  line-height: 45px;
+  margin-right: 5px;
+  border-radius: 50px;
+  text-align: center;
+  align-items: center;
+  font-size: 19px;
+  background-color: #cac5c542;
+  transition: 0.3s;
+}
+.social-media ul li i:hover{
+  background-color: rgba(255 0 0/ 0.9);
+}
+section{
+  background-size: cover;
+}
+
+
+} */
+/*About*/
+.about {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 80px;
+  margin-top: 100px;
+}
+
+.about-item {
+  width: 30%;
+  position: relative;
+  box-shadow: 5px 5px 25px 10px #000;
+}
+
+.about-item:hover .about-img img {
+  opacity: .2;
+}
+
+.about-img {
+  background: #000;
+  width: 301px;
+  height: 169px;
+}
+
+.about-img {
+  display: block;
+  transition: opacity.1s linear;
+}
+
+.about-text {
+  width: 100%;
+  font-size: 18px;
+  color: white;
+  text-transform: uppercase;
+  font-weight: 700;
+  text-align: center;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 2;
+  transform: translate3d(0, -50%, 0);
+  transition: opacity .1s linear;
+}
+
+.about-item:hover .about-text {
+  opacity: 1;
+}
+span{
+  color: red;
+}
+/* footer */
+footer{
+  background: black;
+  height: auto;
+  width: 100%;
+  font-family: "Ubuntu";
+  padding-top: 40px;
+  color: #fff;
+}
+.f1{
+  display:flex;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  flex-direction: column;
+}
+.f1 h3{
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 3rem;
+}
+.f1 p{
+  max-width: 500px;
+  margin: 10px auto;
+  line-height: 28px;
+  font-size: 14px;
+}
+.social{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1rem 0 3rem 0;
+}
+.social li{
+  margin: 0 10px;
+}
+.social a{
+  text-decoration: none;
+  color: #fff;
+}
+.social a i{
+  font-size: 1.1rem;
+}
+.social a:hover i{
+  color:aqua;
+}
+.f2{
+
+  background: black;
+  width: 100%;
+  padding: 20px 0;
+  text-align: center;
+
+}
+.f2 p{
+  font-size: 14px;
+  word-spacing: 2px;
+  text-transform: capitalize;
+}
+.f2 span{
+  text-transform: uppercase;
+  opacity: .4;
+  font-weight: 200;
+
+}
+#night{
+  width:25px;
+  height: 25px;
+  background: white;
+  position: fixed;
+  border-radius: 50%;
+  right:80px;
+  bottom: 40px;
+  box-shadow: 0 0 5px 5px white;
+  transition: .25s;
+}
+#night:hover{
+  transform: scale(1.2);
+}
